@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 export const About = () => {
+  useEffect(() => {
+    Aos.init({duration :3000 });
+    
+  }, []);
   return (
-    <section id="about" className="about-mf sect-pt4 route">
+    <section id="about" className="about-mf sect-pt4 route" data-aos = "fade-up">
     <div className="container">
       <div className="row">
         <div className="col-sm-12">

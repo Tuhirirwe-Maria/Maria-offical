@@ -55,6 +55,12 @@ function NavBar() {
       <a className="text-decoration-none text-light">More about me</a>
     </Link>
     </li>
+
+    <li className="option" onClick={closeMobileMenu}>
+    <Link href="/#contact">
+      <a className="text-decoration-none text-light">Contact</a>
+    </Link>
+    </li>
  
 
 

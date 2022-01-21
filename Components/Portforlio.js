@@ -1,9 +1,16 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 
 function Portforlio() {
+  useEffect(() => {
+    Aos.init({duration :3000 });
+    
+  }, []);
   return (
-    <section id="work" className="portfolio-mf sect-pt4 route">
+    <section id="work" className="portfolio-mf sect-pt4 route" data-aos = "fade-right">
     <div className="container">
       <div className="row">
         <div className="col-sm-12">
@@ -19,7 +26,7 @@ function Portforlio() {
       <div className="row">
         <div className="col-md-4">
           <div className="work-box">
-            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+            <a href="https://jumia-clone-4fdfe.web.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
               <div className="work-img">
                 <img src="/Images/jumia.png" alt="" className="img-fluid"/>
               </div>
@@ -38,7 +45,7 @@ function Portforlio() {
         </div>
         <div className="col-md-4">
           <div className="work-box">
-            <a href="/Images/shop.png" data-gallery="portfolioGallery" className="portfolio-lightbox">
+            <a href="https://onlineshop-maria.netlify.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
               <div className="work-img">
                 <img src="/Images/shop.png" alt="" className="img-fluid"/>
               </div>
@@ -57,17 +64,17 @@ function Portforlio() {
         </div>
         <div className="col-md-4">
           <div className="work-box">
-            <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+            <a href="https://kakati.netlify.app/index.html" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
               <div className="work-img">
-                <img src="/Images/Bikes.png" alt="" className="img-fluid"/>
+                <img src="/Images/kakati.png" alt="" className="img-fluid"/>
               </div>
             </a>
             <div className="work-content">
               <div className="row">
                 <div className="col-sm-8">
-                  <h2 className="w-title">Mbikes</h2>
+                  <h2 className="w-title">Kakati</h2>
                   <div className="w-more">
-                    <span className="w-ctegory">Next JS</span> - <span className="w-date">Website for bikes</span>
+                    <span className="w-ctegory">Next JS</span> - <span className="w-date">Bussiness website</span>
                   </div>
                 </div>
               </div>

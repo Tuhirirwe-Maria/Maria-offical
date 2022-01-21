@@ -81,6 +81,14 @@ body {
     background-color: #1B1B1B;
     background-position: center right;
   }
+    
+  .bg-image-quote {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1B1B1B;
+    background-position: center right;
+  }
   @media (max-width: 1024px) {
     .bg-image {
       background-attachment: scroll;
