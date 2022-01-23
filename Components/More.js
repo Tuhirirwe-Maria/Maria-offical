@@ -43,6 +43,16 @@ function More() {
           
           </div>
         </div>
+        <div className="col-md-4" data-aos = "flip-left">
+          <div className="work-box">
+            <a href="https://dev.to/tuhirirwemaria" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <div className="work-img">
+                <img src="/Images/dev.png" alt="github logo"className="img-fluid"/>
+              </div>
+            </a>
+          
+          </div>
+        </div>
 
 
       </div>
