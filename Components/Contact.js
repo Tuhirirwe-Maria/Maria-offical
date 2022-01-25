@@ -23,7 +23,7 @@ function Contact() {
               <div className="row">
                 <div className="col-md-6">
                   <div className="title-box-2">
-                    <h5 className="title-left">Send Message Us</h5>
+                    <h5 className="title-left">Reach me</h5>
                   </div>
                   <div>
                     <form
