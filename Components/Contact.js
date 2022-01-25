@@ -28,7 +28,6 @@ function Contact() {
                   <div>
                     <form
                       action="POST"
-                      method="POST"
                       role="form"
                       className="php-email-form"
                       data-netlify="true"
