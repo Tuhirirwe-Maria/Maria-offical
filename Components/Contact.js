@@ -27,10 +27,11 @@ function Contact() {
                   </div>
                   <div>
                     <form
-                      action="forms/contact.php"
-                      method="post"
+                      action="POST"
+                      method="POST"
                       role="form"
                       className="php-email-form"
+                      data-netlify="true"
                     >
                       <div className="row">
                         <div className="col-md-12 mb-3">
