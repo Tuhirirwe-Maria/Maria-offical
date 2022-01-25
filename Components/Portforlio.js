@@ -34,9 +34,9 @@ function Portforlio() {
             <div className="work-content">
               <div className="row">
                 <div className="col-sm-8">
-                  <h2 className="w-title">Jumia clone</h2>
+                  <h2 className="w-title">Photography</h2>
                   <div className="w-more">
-                    <span className="w-ctegory">HTML and CSS</span> - <span className="w-date">Cloned ecomerce store from the original Jumia website </span>
+                    <span className="w-ctegory">Next JS</span> - <span className="w-date">Photo website that displays photos </span>
                   </div>
                 </div>
               </div>

@@ -91,10 +91,10 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
 
 Meta.defaultProps = {
   title: "MARIA",
-  keywords: "Ngo",
-  description: "Ngo that supports children",
-  image:"https://stellacenter.vercel.app/assets/img/logo/logosc.jpeg",
-  siteLink:"stellacenter.vercel.app"
+  keywords: "Portfolio",
+  description: "Describing Maria",
+  image:"https://res.cloudinary.com/awesomeone-maria/image/upload/v1643104229/maria_rsshdi.png",
+  siteLink:"maria-tuhirirwe73.netlify.app/"
 };
 
 export default Meta;
