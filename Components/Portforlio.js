@@ -26,9 +26,9 @@ function Portforlio() {
       <div className="row">
         <div className="col-md-4">
           <div className="work-box">
-            <a href="https://jumia-clone-4fdfe.web.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
+            <a href="https://client-photo.vercel.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
               <div className="work-img">
-                <img src="/Images/jumia.png" alt="" className="img-fluid"/>
+                <img src="/Images/photo.png" alt="" className="img-fluid"/>
               </div>
             </a>
             <div className="work-content">
