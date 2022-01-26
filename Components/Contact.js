@@ -32,6 +32,7 @@ function Contact() {
                       data-netlify = "true"
                       onSubmit="submit"
                       role="form"
+                      action="/success"
                       className="php-email-form"
                     >
                       <div className="row">
@@ -40,6 +41,7 @@ function Contact() {
                             <input
                               type="text"
                               name="name"
+                              value="Conatct"
                               className="form-control"
                               id="name"
                               placeholder="Your Name"
@@ -53,6 +55,7 @@ function Contact() {
                               type="email"
                               className="form-control"
                               name="email"
+                              value="Conatct"
                               id="email"
                               placeholder="Your Email"
                               required
@@ -65,6 +68,7 @@ function Contact() {
                               type="text"
                               className="form-control"
                               name="subject"
+                              value="Conatct"
                               id="subject"
                               placeholder="Subject"
                               required
@@ -76,6 +80,7 @@ function Contact() {
                             <textarea
                               className="form-control"
                               name="message"
+                              value="Conatct"
                               rows={5}
                               placeholder="Message"
                               required
