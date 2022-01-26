@@ -41,7 +41,7 @@ function Contact() {
                             <input
                               type="text"
                               name="name"
-                              value="Conatct"
+                              value="Your Name"
                               className="form-control"
                               id="name"
                               placeholder="Your Name"
@@ -54,7 +54,7 @@ function Contact() {
                             <input
                               type="email"
                               className="form-control"
-                              name="email"
+                              name="Your Email"
                               value="Conatct"
                               id="email"
                               placeholder="Your Email"
@@ -67,7 +67,7 @@ function Contact() {
                             <input
                               type="text"
                               className="form-control"
-                              name="subject"
+                              name="Subject"
                               value="Conatct"
                               id="subject"
                               placeholder="Subject"
@@ -79,7 +79,7 @@ function Contact() {
                           <div className="form-group">
                             <textarea
                               className="form-control"
-                              name="message"
+                              name="Message"
                               value="Conatct"
                               rows={5}
                               placeholder="Message"
