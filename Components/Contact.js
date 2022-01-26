@@ -30,18 +30,19 @@ function Contact() {
                     name='Contact'
                       method='POST'
                       data-netlify = "true"
+                      action="contact/?success=true"
                       onSubmit="submit"
                       role="form"
-                      action="/success"
                       className="php-email-form"
                     >
+                      <input type="hidden" name="form-name" value="contact-form" />
+                      
                       <div className="row">
                         <div className="col-md-12 mb-3">
                           <div className="form-group">
                             <input
                               type="text"
                               name="name"
-                              value="Your Name"
                               className="form-control"
                               id="name"
                               placeholder="Your Name"
@@ -54,8 +55,7 @@ function Contact() {
                             <input
                               type="email"
                               className="form-control"
-                              name="Your Email"
-                              value="Conatct"
+                              name="email"
                               id="email"
                               placeholder="Your Email"
                               required
@@ -67,8 +67,7 @@ function Contact() {
                             <input
                               type="text"
                               className="form-control"
-                              name="Subject"
-                              value="Conatct"
+                              name="subject"
                               id="subject"
                               placeholder="Subject"
                               required
@@ -79,8 +78,7 @@ function Contact() {
                           <div className="form-group">
                             <textarea
                               className="form-control"
-                              name="Message"
-                              value="Conatct"
+                              name="message"
                               rows={5}
                               placeholder="Message"
                               required
