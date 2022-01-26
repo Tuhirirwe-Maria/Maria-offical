@@ -27,10 +27,12 @@ function Contact() {
                   </div>
                   <div>
                     <form
-                      action="POST"
+                    name='Contact'
+                      method='POST'
+                      data-netlify = "true"
+                      onSubmit="submit"
                       role="form"
                       className="php-email-form"
-                      data-netlify="true"
                     >
                       <div className="row">
                         <div className="col-md-12 mb-3">
@@ -91,6 +93,7 @@ function Contact() {
                         <div className="col-md-12 text-center">
                           <button
                             type="submit"
+                            value="Submit"
                             className="button button-a button-big button-rouded"
                           >
                             Send Message
