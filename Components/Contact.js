@@ -30,12 +30,13 @@ function Contact() {
                     name='Contact'
                       method='POST'
                       data-netlify = "true"
-                      action="/success"
+                      action='/contact/success'
+                      enctype='application/x-www-form-urlencoded'
                       onSubmit="submit"
                       role="form"
                       className="php-email-form"
                     >
-                      <input type="hidden" name="form-name" value="contact-form" />
+                      <input type='hidden' name='form-name' value='contact-form' />
 
                       <div className="row">
                         <div className="col-md-12 mb-3">
