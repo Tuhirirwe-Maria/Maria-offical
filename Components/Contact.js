@@ -20,13 +20,13 @@ function Contact() {
         <div className="col-sm-12">
           <div className="contact-mf">
             <div id="contact" className="box-shadow-full">
-              <div className="row">
-                <div className="col-md-6">
+              <div className="d-flex align-items-center justify-content-evenly flex-wrap " >
+                <div >
                   <div className="title-box-2">
                     <h5 className="title-left">Reach me</h5>
                   </div>
                   <div>
-                    <form
+                    {/* <form
                     name='Contact'
                       method='POST'
                       data-netlify = "true"
@@ -104,13 +104,13 @@ function Contact() {
                           </button>
                         </div>
                       </div>
-                    </form>
+                    </form> */}
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <div className="title-box-2 pt-4 pt-md-0">
+                  {/* <div className="title-box-2 pt-4 pt-md-0">
                     <h5 className="title-left">Get in Touch</h5>
-                  </div>
+                  </div> */}
                   <div className="more-info">
                     <p className="lead">
                   
@@ -125,6 +125,12 @@ function Contact() {
                       </li>
                       <li>
                         <span className="bi bi-envelope" /> tuhirirwemaria@gmail.com
+                      </li>
+                      <li>
+                        <span className="bi bi-github" /><a href='https://github.com/Tuhirirwe-Maria' className='text-decoration-none text-dark'>Tuhirirwe-Maria</a>
+                      </li>
+                      <li>
+                        <span className="bi bi-linkedin" />Maria Tuhirirwe
                       </li>
                     </ul>
                   </div>

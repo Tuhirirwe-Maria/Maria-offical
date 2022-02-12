@@ -84,11 +84,7 @@ function Portforlio() {
 
 
       </div>
-      <div className='d-flex justify-contect-center pb-4'>
-          <Link href = "">
-      <button className='btn btn-primary m-auto'> <a> View More</a> </button>
-      </Link>
-      </div>
+   
     </div>
   </section>
     );

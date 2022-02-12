@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css"
+import Link from 'next/link';
 
 export const About = () => {
   useEffect(() => {
@@ -67,7 +68,7 @@ export const About = () => {
                   <div className="title-box-2">
                     <h5 className="title-left">About me</h5>
                   </div>
-                  <p className="lead">
+                  <p className="lead pt-3">
                   I am a Ugandan Front-end software developer. I love to build and work with teams to 
                   establish virtual platforms and systems that provide user satisfaction.
                   </p>
@@ -75,8 +76,12 @@ export const About = () => {
                   The language I most frequently use is JavaScript for now. 
                   I am also very comfortable with version control systems such as GIT as well 
                   as project tracking tools such as Jira and Trello.
-                  </p>
-               
+                   </p>
+                   <div className='d-flex justify-contect-center pb-4'>
+                     
+                    <button className='btn btn-primary m-auto'> <a href='https://drive.google.com/file/d/1g2T-qdLsUbDSIR2gRzdJQT0PMPD9LVSC/view?usp=sharing' target="_blank" className='text-decoration-none text-light'> Resume</a> </button>
+                  
+                    </div>
                 </div>
               </div>
             </div>

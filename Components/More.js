@@ -26,7 +26,7 @@ function More() {
           <div className="work-box">
             <a href="https://tuhirirwemaria.medium.com/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
               <div className="work-img">
-                <img src="/Images/Medium.jpeg" alt="medium logo" className="img-fluid"/>
+                <img src="/Images/Medium.jpeg" alt="medium logo"  className="img-fluid"/>
               </div>
             </a>
             

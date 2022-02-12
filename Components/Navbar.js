@@ -61,9 +61,8 @@ function NavBar() {
       <a className="text-decoration-none text-light">Contact</a>
     </Link>
     </li>
+
  
-
-
   </ul>
   </nav>
 
