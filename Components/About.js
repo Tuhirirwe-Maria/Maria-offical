@@ -32,7 +32,7 @@ export const About = () => {
                       </p>
                       <p>
                         <span className="title-s">Profile: </span>{" "}
-                        <span>Front-end developer</span>
+                        <span>Software developer</span>
                       </p>
                       <p>
                         <span className="title-s">Email: </span>{" "}
