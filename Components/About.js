@@ -79,7 +79,7 @@ export const About = () => {
                    </p>
                    <div className='d-flex justify-contect-center pb-4'>
                      
-                    <button className='btn btn-primary m-auto'> <a href='https://drive.google.com/file/d/1g2T-qdLsUbDSIR2gRzdJQT0PMPD9LVSC/view?usp=sharing' target="_blank" className='text-decoration-none text-light'> Resume</a> </button>
+                    <button className='btn btn-primary m-auto'> <a href='https://drive.google.com/file/d/1hKMdgTzfix-UMT5ouA50dOwdtPYp9_ga/view?usp=sharing' target="_blank" className='text-decoration-none text-light'> Resume</a> </button>
                   
                     </div>
                 </div>
