@@ -102,6 +102,26 @@ function Portforlio() {
           </div>
         </div>
 
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href="https://stellacenter.vercel.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <div className="work-img">
+                <img src="https://res.cloudinary.com/awesomeone-maria/image/upload/v1660752882/Screenshot_2022-08-17_at_19.08.18_o4yknu.png" alt="image" className="img-fluid"/>
+              </div>
+            </a>
+            <div className="work-content">
+              <div className="row">
+                <div className="col-sm-8">
+                  <h2 className="w-title">Stella center</h2>
+                  <div className="w-more">
+                    <span className="w-ctegory">Next JS</span> - <span className="w-date">Ngo site</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
    
