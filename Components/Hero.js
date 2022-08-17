@@ -11,7 +11,7 @@ export default function Hero() {
   //     }}
   // />
   const {text} = useTypewriter({
-    words: ['Software Developer', 'Coding Instructor', 'Mentor'],
+    words: ['Full-stack Developer', 'Coding Instructor', 'Mentor'],
     loop: true, // Infinit
   })
   return (
