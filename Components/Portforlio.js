@@ -82,6 +82,26 @@ function Portforlio() {
           </div>
         </div>
 
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href="https://food-seller-resturant.vercel.app/" target="_blank" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <div className="work-img">
+                <img src="https://res.cloudinary.com/awesomeone-maria/image/upload/v1660752968/Screenshot_2022-08-17_at_19.15.07_tzimav.png" alt="image" className="img-fluid"/>
+              </div>
+            </a>
+            <div className="work-content">
+              <div className="row">
+                <div className="col-sm-8">
+                  <h2 className="w-title">Foodii</h2>
+                  <div className="w-more">
+                    <span className="w-ctegory">Next JS</span> - <span className="w-date">Resturant site</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
    
