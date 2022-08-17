@@ -20,7 +20,7 @@ function Quote() {
                       <span className="author">Favorite Quote</span>
                     </div>
                   <p className="description lead">
-                  I'm better than I was yesterday but not as good as I ill be tomorrow.
+                  I'm better than I was yesterday but not as good as I will be tomorrow.
                   </p>
                 </div>
               </div>
