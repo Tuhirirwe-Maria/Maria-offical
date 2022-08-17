@@ -32,7 +32,7 @@ export const About = () => {
                       </p>
                       <p>
                         <span className="title-s">Profile: </span>{" "}
-                        <span>Software developer</span>
+                        <span>Full-Stack Developer</span>
                       </p>
                       <p>
                         <span className="title-s">Email: </span>{" "}
@@ -47,17 +47,20 @@ export const About = () => {
                 </div>
                 <div className="skill-mf d-flex justify-content-between w-50 pt-4">
                   <div className=''>
-                  <p className="title-s fs-3 ">Skill</p>
+                  <p className="title-s fs-3 ">Skills</p>
                   <p>React JS</p> 
                   <p>Next JS</p> 
-                  <p>Bootsrap</p> 
-                  <p>JAVASCRIPT</p>
                   <p>HTML</p>
+                  <p>CSS</p> 
+                  <p>NodeJs</p>
+                  <p>MongoDB</p>
+                  <p>Javascript</p>
+                  
                   
                   </div>
                   <div className=''>
                   <p className="title-s fs-3 ">Tools</p>
-                  <p>Git</p> 
+                  <p>Git/Github</p> 
                   <p>Trello</p> 
                   <p>Jira</p> 
                   </div>
@@ -69,11 +72,11 @@ export const About = () => {
                     <h5 className="title-left">About me</h5>
                   </div>
                   <p className="lead pt-3">
-                  I am a Ugandan Front-end software developer. I love to build and work with teams to 
+                  I am a Full-Stack developer. I love to build and work with teams to 
                   establish virtual platforms and systems that provide user satisfaction.
                   </p>
                   <p className="lead">
-                  The language I most frequently use is JavaScript for now. 
+                  I aspire to change the world with code one line at a time. I am proficient with MERN stack. 
                   I am also very comfortable with version control systems such as GIT as well 
                   as project tracking tools such as Jira and Trello.
                    </p>
