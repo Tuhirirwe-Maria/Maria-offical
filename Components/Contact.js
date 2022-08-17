@@ -23,7 +23,7 @@ function Contact() {
               <div className="d-flex align-items-center justify-content-evenly flex-wrap " >
                 <div >
                   <div className="title-box-2">
-                    <h5 className="title-left">Reach me</h5>
+                    <h5 className="title-left">Reach out</h5>
                   </div>
                   <div>
                     {/* <form
